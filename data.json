@@ -1,0 +1,54 @@
+[
+
+    {
+        "title": "شتابدهنده پرایما",
+        "link": "#hero"
+    },
+
+    {
+        "title": "جذب سرمایه",
+        "link": "#investment"
+    },
+
+    {
+        "title": "سرمایه گذاری",
+        "link": "#investment"
+    },
+
+    {
+        "title": "منتورینگ",
+        "link": "#mentor"
+    },
+
+    {
+        "title": "آموزش استارتاپ",
+        "link": "#education"
+    },
+
+    {
+        "title": "مدل کسب و کار",
+        "link": "#business"
+    },
+
+    {
+        "title": "توسعه محصول",
+        "link": "#product"
+    },
+
+    {
+        "title": "بازاریابی دیجیتال",
+        "link": "#marketing"
+    },
+
+    {
+        "title": "کارآفرینی",
+        "link": "#entrepreneurship"
+    },
+
+    {
+        "title": "استارتاپ",
+        "link": "#startup"
+    }
+
+]
+

@@ -1,0 +1,103 @@
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .search{
+        width: 45px;
+        position: absolute;
+        left: 45px;
+        top: 0;
+        bottom: 0;
+        background-color: #27aae7;
+
+        
+    }
+    .drop-down-menu{
+        width: 45px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        background-color: rgb(202, 139, 56);
+        z-index: 1000;
+        justify-content: center;
+        align-items: center;
+
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+     .search{
+        width: 100px;
+    }
+
+    .menu{
+        flex-direction:row;
+        position:static;
+        width:auto;
+        opacity:1;
+        visibility:visible;
+        transform:none;
+    }
+
+    .drop-down-menu{
+        display:none;
+    }
+
+     .search-bar{
+        flex-direction: row;
+        justify-content: center;
+    }
+    .search-form{
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .newsletter-container{
+        flex-direction: row;
+        justify-content: center;
+        
+    }
+
+    .mail-form{
+        flex-direction: row;
+        display: block;
+    }
+
+    .newsletter-text{
+        margin-top: 0;
+        margin-left: 10px;
+    }
+
+    footer{
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    }
+
+    
+    /* ul li{
+        display: inline-block;
+    }
+    .drop-down-menu{
+        display: none!important;
+    } */
+    /* .search{
+        left : 0;
+    } */
+
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+   
+
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {}
+
+
