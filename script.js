@@ -222,11 +222,12 @@ document.addEventListener("click", function (event) {
     if (
         !menu.contains(event.target) &&
         !menuButton.contains(event.target) &&
+         !slider.contains(event.target) &&
         menu.classList.contains("active")
     ) {
-        menu.classList.remove("active");
-        icon.classList.replace("fa-times", "fa-bars");
-    }
+    menu.classList.remove("active");
+    icon.classList.replace("fa-times", "fa-bars");
+}
 
 });
 
@@ -660,7 +661,7 @@ document.addEventListener("click", function (event) {
         !searchButton.contains(event.target) &&
 
         !nextBtn.contains(event.target) &&
-        
+
         !prevBtn.contains(event.target)
 
     ) {
